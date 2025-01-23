@@ -17,7 +17,7 @@ export default (req: Request, res: Response, responseStatusCode: number, respons
         data
     };
 
-    logger.log('RESPONSE_APPLICATION', {
+    logger.info('RESPONSE_APPLICATION', {
         meta: {
             returns: response
         }
