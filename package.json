@@ -4,6 +4,7 @@
     "description": "sjbvf uev vuqewdb cwiqbc iqwdb cxqwid qwed cwed",
     "main": "server.js",
     "scripts": {
+        "dist": "npx tsc",
         "dev": "cross-env NODE_ENV=development nodemon src/server.ts",
         "start": "cross-env NODE_ENV=production node dist/server.js",
         "lint": "eslint",
@@ -44,6 +45,7 @@
         "express": "^4.21.2",
         "helmet": "^8.0.0",
         "mongoose": "^8.9.5",
+        "nodemon": "^3.1.9",
         "npm-check-updates": "^17.1.14",
         "rate-limiter-flexible": "^5.0.5",
         "source-map-support": "^0.5.21",
